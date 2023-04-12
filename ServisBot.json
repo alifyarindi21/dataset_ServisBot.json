@@ -70,6 +70,7 @@
       {
         "tag": "penutup",
         "patterns": [
+          "yap",
           "Dah",
           "Dadah",
           "Bye",
@@ -77,8 +78,8 @@
           "Good bye",
           "Selamat tinggal",
           "Sampai jumpa",
-          "Bai",
-          "See you"
+          "yoi",
+          "okeh"
         ],
         "responses": [
           "Semoga puas yaa",
@@ -217,6 +218,24 @@
           "jika sudah selesai, nanti akan dikabari lagi lewat WA ya kak"
         ]
       },
+        
+        {
+        "tag": "Pertanyaan_servis_lokasi",
+        "patterns": [
+          "ini alamatnya dimana ya?",
+          "alamat nya sesuai maps kan?",
+          "lokasi dimana?",
+          "lokasi tepat nya dimana?",
+          "alamatnya jalan apa?",
+          "alamat toko nya dimana ya?",
+          "tolong shareloc pak?",
+          "tolong kirim alamat nya?"
+        ],
+        "responses": [
+          "untuk lokasi kami, sudah sesuai dengan google maps ya kak, tepatnya di Jalan Kutilang Sakti, Gg. Kutilang 1, Panam, Pekanbaru"
+        ]
+      },
+        
       {
         "tag": "Pertanyaan_servis_jam_buka",
         "patterns": [

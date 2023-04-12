@@ -1,0 +1,239 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hallo",
+          "hai",
+          "halo",
+          "hei",
+          "hi",
+          "hy",
+          "pagi",
+          "selamat pagi",
+          "morning",
+          "siang",
+          "selamat siang",
+          "afternoon",
+          "sore",
+          "selamat sore",
+          "malam",
+          "selamat malam",
+          "bro",
+          "sis",
+          "kawan",
+          "Assalamu'alaikum",
+          "Assalamualaikum",
+          "Asalamu'alaikum",
+          "Asalamualaikum",
+          "Assalamu'alaikum pak"
+
+        ],
+        "responses": [
+          "Hai! Selamat datang, dengan ServisBot disini:) , ada yang bisa dibantu?",
+          "Halo! dengan ServisBot disini yang shiaap melayani.. Ada yang bisa dibantu?",
+          "Wa'alaikumussalam! Saya ServisBot, Ada yang bisa dibantu?"
+        ]
+      },
+      {
+        "tag": "ServisBot",
+        "patterns": [
+          "Apa itu ServisBot?",
+          "Siapa itu ServisBot?",
+          "Kamu ini apa?"
+        ],
+        "responses": [
+          "ServisBot adalah sejenis chat bot yang dapat membantu pelanggan yang ingin menggunakan jasa elektronik servis J.E.S dari kami ",
+          "ServisBot akan melayani pertanyaan anda seputar jasa servis yang tersedia di J.E.S "
+        ]
+      },
+      {
+        "tag": "tanggapan",
+        "patterns": [
+          "Baik pak",
+          "Oke pak",
+          "Siap pak",
+          "oke",
+          "ashiaap",
+          "baik, terimakasih",
+          "siap",
+          "baik",
+          "baiklah",
+          "okee"
+        ],
+        "responses": [
+          "okee",
+          "Siapp",
+          "baikk"
+        ]
+      },
+      {
+        "tag": "penutup",
+        "patterns": [
+          "Dah",
+          "Dadah",
+          "Bye",
+          "Byee",
+          "Good bye",
+          "Selamat tinggal",
+          "Sampai jumpa",
+          "Bai",
+          "See you"
+        ],
+        "responses": [
+          "Semoga puas yaa",
+          "Silakan Berkunjung Kembali",
+          "Dahh, semoga harimu menyenangkan yaa!",
+          "Sampai jumpa lagi yaa!",
+          "Senang bisa membantu"
+        ]
+      },
+      {
+        "tag": "terimakasih",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Terima kasih",
+          "Terimakasih",
+          "Terimakasih pak",
+          "Terimakasih bang",
+          "Terimakasih bg",
+          "makasih pak",
+          "makasih kak",
+          "makasih bg",
+          "makasih bang",
+          "terimakasih ya pak",
+          "Makasih",
+          "Terima kasih banyak",
+          "baiklah, terimakasih ya",
+          "baik, terimakasih pak",
+          "baik, terimakasih kak"
+        ],
+        "responses": [
+        "terimakasih kembali",  
+        "Dengan senang hati :)",
+          "Sama-sama:)"
+        ]
+      },
+      {
+        "tag": "pertanyaan_servis_barang",
+        "patterns": [
+          "Bisa servis apa saja disini?",
+          "bisa servis kulkas?",
+          "bisa servis tv?",
+          "bisa servis tv tabung?",
+          "bisa servis magicom?",
+          "bisa servis mejikom?",
+          "bisa servis kipas?",
+          "bisa servis ac?",
+          "bisa servis setrika?",
+          "bisa servis laptop?",
+          "bisa servis speaker?",
+          "bisa servis printer?",
+          "bisa servis kipas angin?",
+          "bisa servis tv led?",
+          "bisa servis tv lcd?",
+          "bisa servis mikser?",
+          "bisa servis mixer?",
+          "bisa servis laptop?",
+          "bisa servis mesin cuci?",
+          "Bisa perbaiki apa saja disini?",
+          "bisa perbaiki kulkas?",
+          "bisa perbaiki tv?",
+          "bisa perbaiki tv tabung?",
+          "bisa perbaiki magicom?",
+          "bisa perbaiki mejikom?",
+          "bisa perbaiki kipas?",
+          "bisa perbaiki ac?",
+          "bisa perbaiki setrika?",
+          "bisa perbaiki laptop?",
+          "bisa perbaiki speaker?",
+          "bisa perbaiki printer?",
+          "bisa perbaiki kipas angin?",
+          "bisa perbaiki tv led?",
+          "bisa perbaiki tv lcd?",
+          "bisa perbaiki mikser?",
+          "bisa perbaiki mixer?",
+          "bisa perbaiki laptop?",
+          "bisa perbaiki mesin cuci?"
+        ],
+        "responses": [
+          "disini kami menerima jasa servis berbagai alat elektronik, seperti TV LED/LCD/Tabung, Kipas angin, mesin cuci, magicom, speaker, blender, setrika, laptop, printer, dll",
+          "bisa kita cek dulu kerusakannya kak, silahkan antar kesini aja ya kak"
+        ]
+      },
+      {
+        "tag": "Pertanyaan_servis_jasa_antar",
+        "patterns": [
+          "apakah ada jasa antar jemputnya?",
+          "bisa jemput kesini pak?",
+          "bisa perbaiki ditempat?",
+          "bisa servis di tempat?",
+          "apa bisa perbaiki ditempat pak?",
+          "harus perbaiki disana ya pak?"
+        ],
+        "responses": [
+          "maaf, untuk saat ini kami hanya menerima jasa servis di tempat, silahkan datangi toko kami sesuai alamat ya...:)"
+        ]
+      },
+      {
+        "tag": "Pertanyaan_servis_harga",
+        "patterns": [
+          "berapa harga perbaikan nya?",
+          "berapa harganya?",
+          "berapa bayarnya?",
+          "berapa kira-kira harga perbaikan nya?",
+          "berapa harga perbaikan nya pak?",
+          "kalau boleh tau berapa harga perbaikan nya?",
+          "kira-kira berapa harga perbaikan nya ya?",
+          "untuk biaya nya berapa ya?",
+          "berapa biaya nya?",
+          "berapa biaya perbaiki nya?",
+          "berapa kena nya tu pak?"
+        ],
+        "responses": [
+          "untuk harga, bisa dibicarakan langsung ditempat, setelah melihat kondisi kerusakan barangnya ya kak:)"
+        ]
+      },
+      {
+        "tag": "Pertanyaan_servis_waktu",
+        "patterns": [
+          "berapa lama siap nya?",
+          "kapan siap nya?",
+          "kapan bisa dijemput?",
+          "kapan bisa di ambil?",
+          "berapa hari siap nya?",
+          "kapan kira-kira siapnya?",
+          "berapa lama siap nya?",
+          "siap nya kapan?",
+          "jam berapa bisa dijemput?",
+          "jam berapa bisa diambil?",
+          "jam berapa siap nya?",
+          "bisa diambil kapan?"
+
+
+        ],
+        "responses": [
+          "jika sudah selesai, nanti akan dikabari lagi lewat WA ya kak"
+        ]
+      },
+      {
+        "tag": "Pertanyaan_servis_jam_buka",
+        "patterns": [
+          "jam berapa bukanya?",
+          "buka jam berapa?",
+          "buka dari jam berapa?",
+          "tutup jam berapa?",
+          "tutup jam berapa pak?",
+          "kapan tutupnya pak?",
+          "buka hari ini pak?",
+          "apakah hari ini buka?",
+          "dari jam berapa bukanya?",
+          "apakah besok buka?"
+        ],
+        "responses": [
+          "kami buka setiap hari, dari jam 7 pagi sampai jam 10 malam"
+        ]
+      }
+    ]
+  }
